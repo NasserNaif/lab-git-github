@@ -4,5 +4,5 @@ let password = document.getElementById("password");
 
 form.addEventListener("submit", (elm) => {
   elm.preventDefault();
-  alert(`Hello ${euer.value}, your password is ${password.value}`);
+  alert(`Hello ${euer.value}, your password is this one ${password.value}`);
 });
